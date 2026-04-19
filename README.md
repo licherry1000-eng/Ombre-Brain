@@ -79,6 +79,11 @@ curl http://localhost:8000/health
 {"status":"ok","buckets":0,"decay_engine":"stopped"}
 ```
 
+浏览器打开前端 Dashboard：**http://localhost:8000/dashboard**
+
+> 如果你用的是 `docker-compose.user.yml` 默认端口，地址就是 `http://localhost:8000/dashboard`。
+> 如果你改了端口映射（比如 `18001:8000`），则是 `http://localhost:18001/dashboard`。
+
 > **看到错误？** 检查 Docker Desktop 是否正在运行（状态栏有图标）。
 
 ### 第六步：接入 Claude
@@ -192,6 +197,8 @@ docker logs ombre-brain
 ```
 
 看到 `Uvicorn running on http://0.0.0.0:8000` 说明成功了。
+
+浏览器打开前端 Dashboard：**http://localhost:18001/dashboard**（`docker-compose.yml` 默认端口映射 `18001:8000`）
 
 ---
 
