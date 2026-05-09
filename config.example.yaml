@@ -57,36 +57,36 @@ decay:
   threshold: 0.3                  # Archive threshold / 归档阈值
   check_interval_hours: 24        # Check interval (hours) / 衰减检查间隔（小时）
   emotion_weights:
-    base: 1.0                     # Base weight / 基础权重
-    arousal_boost: 0.8            # Arousal boost coefficient / 唤醒度加成系数
+    base: 1.0                     # Base weight / 基础权重基础: 1.0                     # 基础权重# 基础权重 / 基础权重基础: 1.0 # 基础权重# 基础权重 / 基础权重基础: 1.0 # 基础权重# 基础权重 / 基础权重基础: 1.0 # 基础权重
+    arousal_boost: 0.8            # Arousal boost coefficient / 唤醒度加成系数唤醒度加成系数 / 唤醒度加成系数:0.8# 唤醒度加成系数 / 唤醒度加成系数唤醒度加成系数 / 唤醒度加成系数:0.8# 兴奋度加成系数 / 唤醒度加成系数唤醒度加成系数 / 唤醒度加成系数:0.8# 唤醒度加成系数 / 唤醒度加成系数唤醒度加成系数 / 唤醒度加成系数:0.8
 
-# --- Embedding / 向量化配置 ---
-# Uses embedding API for semantic similarity search
-# 通过 embedding API 实现语义相似度搜索
-# You can configure embedding independently from dehydration.
-# If api_key is omitted, reuses the same API key (OMBRE_API_KEY) and base_url from dehydration config
-# 你可以把 embedding 独立配置；若 api_key 留空，复用脱水配置的 API key 和 base_url
-embedding:
-  enabled: true                   # Enable embedding / 启用向量化
-  model: "gemini-embedding-001"   # Embedding model / 向量化模型
-  # base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
-  # api_key: ""                  
+# --- Embedding / 向量化配置 ---# --- 嵌入 / 向量化配置 ---# --- 嵌入 / 向量化配置 ---# --- 嵌入 / 向量化配置 ---# --- 嵌入 / 向量化配置 ---# --- 嵌入 / 向量化配置 ---# --- 嵌入 / 向量化配置 ---# --- 嵌入 / 向量化配置 ---
+# Uses embedding API for semantic similarity search# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索# 使用嵌入式API进行语义相似性搜索
+# 通过 embedding API 实现语义相似度搜索# 通过嵌入API实现语义相似度搜索
+# You can configure embedding independently from dehydration.# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。# 您可独立于脱水情况配置嵌入式参数。
+# If api_key is omitted, reuses the same API key (OMBRE_API_KEY) and base_url from dehydration config# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果api_key是空的，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url# 如果省略api_key，则复用脱水配置中的相同API密钥（OMBRE_API_KEY）和base_url
+# 你可以把 embedding 独立配置；若 api_key 留空，复用脱水配置的 API key 和 base_url# 你可以把embedding独立配置；若api_key留空，复用脱水配置的API密钥和base_url
+embedding:嵌入:
+  enabled: true                   # Enable embedding / 启用向量化enabled: true# 启用embedding / 启用向量化
+  model: "text-embedding-3-small"   # Embedding model / 向量化模型模型: "text-embedding-3-small"   # 向量化模型 / Embedding model模型: "text-embedding-3-small"   # 向量化模型 / Embedding model: "text-embedding-3-small" # 向量化模型 / Embedding model# 嵌入模型 / 向量化模型模型: "text-embedding-3-small" # 向量化模型 / Embedding model模型: "text-embedding-3-small" # 向量化模型 / Embedding model: "text-embedding-3-small" # 向量化模型 / Embedding model# 嵌入模型 / 向量化模型模型: "text-embedding-3-small" # 向量化模型 / Embedding model模型: "text-embedding-3-small" # 向量化模型 / Embedding model: "text-embedding-3-small" # 向量化模型 / Embedding model# 嵌入模型 / 向量化模型模型: "text-embedding-3-small" # 向量化模型 / Embedding model模型: "text-embedding-3-small" # 向量化模型 / Embedding model: "text-embedding-3-small" # 向量化模型 / Embedding model# 嵌入模型 / 向量化模型模型: “text-embedding-3-small” # 向量化模型 / Embedding model模型: “text-embedding-3-small” # 向量化模型 / Embedding model: “text-embedding-3-small” # 向量化模型 / Embedding model# 嵌入模型 / 向量化模型模型: “text-embedding-3-small” # 向量化模型 / Embedding model模型: “text-embedding-3-small” # 向量化模型 / Embedding model: “text-embedding-3-small” # 向量化模型 / Embedding model
+  # base_url: "https://apihk.unifyllm.top/v1/chat/completions"
+  # api_key: ""                  # api_key: “”
 
-# --- Scoring weights / 检索权重参数 ---
-# total = topic(×4) + emotion(×2) + time(×1.5) + importance(×1)
-scoring_weights:
-  topic_relevance: 4.0
-  emotion_resonance: 2.0
-  time_proximity: 1.5
-  importance: 1.0
+# --- Scoring weights / 检索权重参数 ---# --- 评分权重 / 检索权重参数 ---# --- 检索权重参数 ---# --- 评分权重 / 检索权重参数 ---# --- 评分权重 / 检索权重参数 ---# --- 评分权重 / 检索权重参数 ---# --- 检索权重参数 ---# --- 评分权重 / 检索权重参数 ---
+# total = topic(×4) + emotion(×2) + time(×1.5) + importance(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)# 总分 = 主题(×4) + 情感(×2) + 时间(×1.5) + 重要性(×1)
+scoring_weights:评分权重:
+  topic_relevance: 4.0主题相关性: 4.0
+  emotion_resonance: 2.0情感共鸣: 2.0
+  time_proximity: 1.5时间接近度: 1.5
+  importance: 1.0重要性: 1.0
 
-# --- Fuzzy matching / 模糊匹配参数 ---
-matching:
-  fuzzy_threshold: 50             # Minimum match score (0-100) / 最低匹配分数
-  max_results: 5                  # Max results per search / 单次搜索最多返回条数
+# --- Fuzzy matching / 模糊匹配参数 ---# --- 模糊匹配 / 模糊匹配参数 ---# --- 模糊匹配参数 ---# --- 模糊匹配 / 模糊匹配参数 ---# --- 模糊匹配 / 模糊匹配参数 ---# --- 模糊匹配 / 模糊匹配参数 ---# --- 模糊匹配参数 ---# --- 模糊匹配 / 模糊匹配参数 ---
+matching:匹配:
+  fuzzy_threshold: 50             # Minimum match score (0-100) / 最低匹配分数模糊阈值: 50             # 最低匹配分数（0-100） / 最低匹配分数fuzzy_threshold: 50             # 最低匹配分数（0-100） / 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数# 最低匹配分数（0-100）/ 最低匹配分数模糊阈值：50 # 最低匹配分数（0-100）/ 最低匹配分数fuzzy_threshold：50 # 最低匹配分数（0-100）/ 最低匹配分数
+  max_results: 5                  # Max results per search / 单次搜索最多返回条数最大结果数: 5                  # 单次搜索最多返回条数 / 单次搜索最多返回条数# 单次搜索最多返回条数最大结果数: 5 # 单次搜索最多返回条数 / 单次搜索最多返回条数max_results: 5                  # 每次搜索最多返回条数最大结果数: 5 # 每次搜索最多返回条数 / 每次搜索最多返回条数# 每次搜索最多返回条数最大结果数: 5 # 每次搜索最多返回条数 / 每次搜索最多返回条数
 
-# --- Obsidian wikilinks / Obsidian 双链自动注入 ---
-wikilink:
+# --- Obsidian wikilinks / Obsidian 双链自动注入 ---# --- Obsidian 双链自动注入 / Obsidian 双链自动注入 ---
+wikilink:维基链接维基链接:
   enabled: true
   use_tags: false
   use_domain: true
